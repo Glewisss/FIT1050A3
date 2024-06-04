@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Princes Pool & Karaoke Bar </title>
+
+    <!-- Change width to be correct for the specs 1920p by 1080p or whatever it is-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="none">
+    <!------------------------------- Links --------------------------------->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!------------------- Font Links--------------------->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&family=Ubuntu:ital@0;1&display=swap" rel="stylesheet">
+
+    <script src="js/script.js"></script>
+
+    <link rel="icon" href="images/favicon.png">
+</head>
+
+<body>
+    <button onclick="jumpToTop()" id="topButton" title="Go to top">To Top</button>
+
+    <!-- ============================================ -->
+    <!--                 Navigation                                                               -->
+    <!-- ============================================ -->
+
+    <header id="cs-navigation">
+        <div class="cs-container">
+            <!--Nav Logo-->
+            <div class="logo-box">
+                <a href="index.html" aria-label="back to home" class="logo">
+                    <p class="cs-title">PRINCES</p>
+                </a>
+            </div>
+
+            <!--Navigation List-->
+            <nav class="cs-nav" role="navigation">
+                <!--Mobile Nav Toggle-->
+
+                <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+                <div class="cs-ul-wrapper">
+                    <ul id="cs-expanded" class="cs-ul">
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link cs-active">
+                                HOME
+                            </a>
+                        </li>
+                        <li class="cs-li divider">|</li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link">
+                                POOL TABLES
+                            </a>
+                        </li>
+                        <li class="cs-li divider">|</li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link">
+                                KARAOKE
+                            </a>
+                        </li>
+                        <li class="cs-li divider">|</li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link">
+                                ABOUT
+                            </a>
+                        </li>
+                        <li class="cs-li divider">|</li>
+                        <li class="cs-li">
+                            <a href="" class="cs-li-link">
+                                CONTACT US
+                            </a>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ============================================ -->
+    <!--                 Navigation END                                                      -->
+    <!-- ============================================ -->
+
+
+    <!-- ============================================ -->
+    <!--                    Hero                                                                       -->
+    <!-- ============================================ -->
+
+    <section id="hero-1426">
+        <div class="cs-container">
+            <div class="cs-content">
+                <p class="cs-text"> Welcome to </p>
+                <h1 class="cs-title">PRINCES</h1>
+                <p class="subtitle">
+                    POOL | BAR | KARAOKE
+                </p>
+                <div class="cs-button-group">
+                    <a href="" class="cs-button-solid cs-button1">Book Now</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Background Image -->
+        <picture class="cs-background">
+            <img decoding="async" src="images/billiards_feature_image_o2.jpg" alt="Pool table"  aria-hidden="true" width="1920" height="1078">
+        </picture>
+    </section>
+    <!-- ============================================ -->
+    <!--                    Hero   END                   -->
+    <!-- ============================================ -->
+
+    <!-- ============================================ -->
+    <!--                Side By Side                  -->
+    <!-- ============================================ -->
+
+    <section id="RTsbs-1009">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-picture">
+                    <img loading="lazy" decoding="async" src="images/neon_bar_bottles_sbs_o.jpg" alt="Bar stocked with bottles" width="522"
+                        height="461" aria-hidden="true">
+                </picture>
+            </div>
+            <div class="cs-content">
+                <h2 class="cs-title">Fully Stocked Bars</h2>
+                <p class="cs-text">
+                    2 beautiful bars, each area of the venue having a bar conveniently located nearby, with a wide variety of drinks and cocktails on offer for you and your group’s fun night out!
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--             Side By Side Reverse             -->
+    <!-- ============================================ -->
+
+    <section id="RTsbsr-1009">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-picture">
+                    <img loading="lazy" decoding="async" src="images/billiards_tables_sbs_o.jpg" alt="Pool tables with people playing" width="522"
+                        height="461" aria-hidden="true">
+                </picture>
+            </div>
+            <div class="cs-content">
+                <h2 class="cs-title">High Quality Pool Tables</h2>
+                <p class="cs-text">
+                    Multiple tables are available at Princes, constructed of high quality woods and cloths for the best
+                    game experiences!
+
+                    Tables can be rented on the night, or pre-booked <a class="cs-link" href="#">here</a>
+
+                    For more information about the specifictypes of pool tables accessbile at Princes, head to  <a href="index.html" class="cs-link">Pool
+                    Tables</a>
+                </p>
+                <a href="" class="cs-button-solid">Reserve Your Table</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--             Side By Side Triplet             -->
+    <!-- ============================================ -->
+
+    <section id="RTsbst-1009">
+        <div class="cs-container">
+            <div class="cs-image-group">
+                <picture class="cs-picture">
+                    <img loading="lazy" decoding="async" src="images/karaoke_booth_sbs_o.jpg" alt="Karaoke booth with people singing" width="522"
+                        height="461" aria-hidden="true">
+                </picture>
+            </div>
+            <div class="cs-content">
+                <h2 class="cs-title">Luxury Karaoke Rooms</h2>
+                <p class="cs-text">
+                    Prince’s is proud in its esteemed karaoke rooms, supplied with the best sound quality for you and
+                    your groups nightly sing-alongs!
+                    Alongside the comfortable leather chairs, thelighting and available catering all come together to
+                    make nights to remember For more information about the types of
+                    rooms available, head to <a href="index.html" class="cs-link">Karaoke</a>
+                </p>
+                <a href="" class="cs-button-solid">Book Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--             Side By Side Triplet  END            -->
+    <!-- ============================================ -->
+
+    <!-- ============================================ -->
+    <!--                   Contact                    -->
+    <!-- ============================================ -->
+
+    <section id="contact-1184">
+        <div class="cs-container">
+            <div class="cs-content">
+                <h2 class="cs-title">Contact Us</h2>
+                <!--Form-->
+                <form class="cs-form" id="cs-form-1184" name="Contact Form" method="post">
+                    <label class="cs-label">
+                        Name
+                        <input class="cs-input" required type="text" id="name-1184" name="name" placeholder="Name">
+                    </label>
+                    <label class="cs-label cs-email">
+                        Email
+                        <input class="cs-input" required type="email" id="email-1184" name="email" placeholder="Email">
+                    </label>
+                    <label class="cs-label">
+                        Message
+                        <textarea class="cs-input cs-textarea" required name="Message" id="message-1184"
+                            placeholder="Write message..."></textarea>
+                    </label>
+                    <button class="cs-button-solid cs-submit" type="submit">Submit</button>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                   Contact END                    -->
+    <!-- ============================================ -->
+
+    <!-- ============================================ -->
+    <!--                    Map                       -->
+    <!-- ============================================ -->
+
+    <section id="map-720">
+        <iframe title="Google Map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.0047701268263!2d145.05089787671886!3d-37.88357113803223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66b4928cad26d%3A0x44d917f0da1a6239!2sPrinces%20Pool%2C%20Bar%20%26%20Karaoke!5e0!3m2!1sen!2sau!4v1717414526178!5m2!1sen!2sau"
+            width="1920" height="600" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!-- ============================================ -->
+    <!--                    Map     END                  -->
+    <!-- ============================================ -->
+
+    <!-- ============================================ -->
+    <!--                   Footer                     -->
+    <!-- ============================================ -->
+
+    <footer id="cs-footer-269">
+        <div class="cs-container">
+            <!-- Logo Group -->
+                <a href="index.html" aria-label="back to home" class="logo">
+                    <p class="cs-title">PRINCES</p>
+                </a>
+                <p class="cs-text">
+                    Open Hours:<br>
+                    Monday:        2pm-1am<br>
+                    Tuesday:       2pm-1am<br>
+                    Wednesday: 2pm-1am<br>
+                    Thursday:     2pm-1am<br>
+                    Friday:           2pm-3am<br>
+                    Saturday:      2pm-3am<br>
+                    Sunday:        2pm-1am<br>
+                </p>
+            <!-- Links -->
+            <ul class="cs-nav">
+                <li class="cs-nav-li">
+                    <span class="cs-header">Links</span>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">Home</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">Pool Tables</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">Karaoke</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">About</a>
+                </li>
+                <li class="cs-nav-li">
+                    <a class="cs-nav-link" href="">Contact Us</a>
+                </li>
+            </ul>
+            <!-- Contact Info -->
+            <ul class="cs-contact">
+                <li class="cs-nav-li">
+                    <span class="cs-header">Contact</span>
+                </li>
+                <li class="cs-contact-li">
+                    Ph: <a class="cs-contact-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">03 91918888</a>
+                </li>
+                <li class="cs-contact-li">
+                    Email: <a class="cs-contact-link"
+                        href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">info@princes.net.au</a>
+                </li>
+                <li class="cs-contact-li">
+                    WeChat: <a class="cs-contact-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Princes-98</a>
+                </li>
+                <li class="cs-contact-li">
+                    Address: <a class="cs-contact-link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">1032
+                        Dandenong Rd, Carnegie VIC 3163</a>
+                </li>
+
+            </ul>
+        </div>
+    </footer>
+
+    <!-- ============================================ -->
+    <!--                   Footer END                     -->
+    <!-- ============================================ -->
+<script>
+let topButton = document.getElementById("topButton");
+window.onscroll =   function() {manageScroll()};
+</script>
+</body>
+
+</html>
